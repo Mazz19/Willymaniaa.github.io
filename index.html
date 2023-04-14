@@ -193,7 +193,7 @@
                       </div>
                     </div>
                     <div class="cell-lg-12 cell-md-4">
-                      <button class="button button-primary button-square button-block button-effect-ujarak" type="submit"><span>check availability</span></button>
+                      <button class="button button-primary button-square button-block button-effect-ujarak" type="submit"><span>Prenota.</span></button>
                     </div>
                   </div>
                 </form>
@@ -217,17 +217,17 @@
               <div class="bg-primary section-wrap-content-var-1">
                 <div class="section-wrap-content-var-1-inner">
                   <h2>About Us</h2>
-                  <p>Committed to everyone seeking energy and excitement, we offer endless possibilities to unwind and reenergize.</p>
+                  <p>Purtroppo tutti hanno bisogno di una pausa. Ecco i nostri orari.</p>
                   <div class="group">
                     <dl class="list-desc">
-                      <dt>Weekdays:</dt>
-                      <dd><span>8:00–20:00</span></dd>
+                      <dt>Settimana:</dt>
+                      <dd><span>8:30-13:00 e 14:00–19:00</span></dd>
                     </dl>
                     <dl class="list-desc">
-                      <dt>Weekends:</dt>
-                      <dd><span>9:00–18:00</span></dd>
+                      <dt>Sabato:</dt>
+                      <dd><span>9:00–13:00</span></dd>
                     </dl>
-                  </div><a class="button button-effect-ujarak button-lg button-secondary-outline button-square" href="about-us.html"><span>book now</span></a>
+                  </div><a class="button button-effect-ujarak button-lg button-secondary-outline button-square" href="about-us.html"><span>About us.</span></a>
                 </div>
               </div>
             </div>
@@ -343,6 +343,32 @@
           </div>
         </div>
       </section>
+
+      <div>
+        <form action="submit_appointment.php" method="POST">
+          <label for="name">Nome completo:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="phone">Telefono:</label>
+          <input type="tel" id="phone" name="phone" required>
+        
+          <label for="date">Data:</label>
+          <input type="date" id="date" name="date" required>
+        
+          <label for="time">Orario:</label>
+          <input type="time" id="time" name="time" required>
+        
+          <label for="message">Messaggio:</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        
+          <input type="submit" value="Prenota">
+        </form>
+      </div>
+
+
       <!-- Page Footer-->
       <footer class="page-footer text-left text-sm-left">
         <div class="shell-wide">
