@@ -11353,6 +11353,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 
 html:not(.lt-ie10) .not-animated {
 	opacity: 0;
+	color: #0011ff;
 }
 
 /**
