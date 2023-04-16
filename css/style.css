@@ -1032,6 +1032,7 @@ hr {
 .button.button-effect-ujarak span {
 	position: relative;
 	z-index: 2;
+	color: #0011ff;
 }
 
 .button.button-effect-ujarak:before {
