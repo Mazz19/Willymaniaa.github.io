@@ -11553,11 +11553,12 @@ html:not(.lt-ie10) .not-animated {
 		-webkit-transform: translate3d(0, -100%, 0);
 		transform: translate3d(0, -100%, 0);
 		visibility: visible;
+		color: #0011ff;
 	}
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
-		border-color: #0011ff;
+		color: #0011ff;
 	}
 }
 
@@ -11571,7 +11572,7 @@ html:not(.lt-ie10) .not-animated {
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
-		border-color: #0011ff;
+		color: #0011ff;
 	}
 }
 
@@ -11594,7 +11595,7 @@ html:not(.lt-ie10) .not-animated {
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
-		border-color: #0011ff;
+		color: #0011ff;
 	}
 }
 
@@ -11603,10 +11604,12 @@ html:not(.lt-ie10) .not-animated {
 		-webkit-transform: translate3d(-50%, 0, 0);
 		transform: translate3d(-50%, 0, 0);
 		visibility: visible;
+		color: #0011ff;
 	}
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: #0011ff;
 	}
 }
 
@@ -11623,10 +11626,12 @@ html:not(.lt-ie10) .not-animated {
 		-webkit-transform: translate3d(40%, 0, 0);
 		transform: translate3d(40%, 0, 0);
 		visibility: visible;
+		color: #0011ff;
 	}
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: #0011ff;
 	}
 }
 
@@ -11635,10 +11640,12 @@ html:not(.lt-ie10) .not-animated {
 		-webkit-transform: translate3d(40%, 0, 0);
 		transform: translate3d(40%, 0, 0);
 		visibility: visible;
+		color: #0011ff;
 	}
 	100% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: #0011ff;
 	}
 }
 
@@ -11654,11 +11661,13 @@ html:not(.lt-ie10) .not-animated {
 	0% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: #0011ff;
 	}
 	100% {
 		visibility: hidden;
 		-webkit-transform: translate3d(0, 100%, 0);
 		transform: translate3d(0, 100%, 0);
+		color: #0011ff;
 	}
 }
 
@@ -11666,11 +11675,13 @@ html:not(.lt-ie10) .not-animated {
 	0% {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: #0011ff;
 	}
 	100% {
 		visibility: hidden;
 		-webkit-transform: translate3d(0, 100%, 0);
 		transform: translate3d(0, 100%, 0);
+		color: #0011ff;
 	}
 }
 
